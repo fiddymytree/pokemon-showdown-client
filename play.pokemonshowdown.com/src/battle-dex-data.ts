@@ -636,6 +636,14 @@ const BattlePokemonIconIndexes: {[id: string]: number} = {
 	zapoleon: 1512 + 92,
 	squiyore: 1512 + 93,
 	chocotomp: 1512 + 94,
+	chocokip: 1512 + 95,
+	elequil: 1512 + 96,
+	quilzap: 1512 + 97,
+	boarbaque: 1512 + 110,
+	zeranheit: 1512 + 111,
+	cereblaze: 1512 + 112,
+	tempervian: 1512 + 113,
+	wyrmperior: 1512 + 114,
 };
 
 const BattlePokemonIconIndexesLeft: {[id: string]: number} = {
