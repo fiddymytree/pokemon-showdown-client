@@ -656,6 +656,11 @@ const BattlePokemonIconIndexes: {[id: string]: number} = {
 	cereblaze: 1512 + 112,
 	tempervian: 1512 + 113,
 	wyrmperior: 1512 + 114,
+	stratozone: 1513 + 115,
+	scoundrowl: 1514 + 116,
+	ophadol: 1515 + 117,
+	blimplord: 1516 + 118,
+	lordfetchd: 1517 + 119,
 };
 
 const BattlePokemonIconIndexesLeft: {[id: string]: number} = {
