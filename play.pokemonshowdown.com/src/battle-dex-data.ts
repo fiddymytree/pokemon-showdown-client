@@ -661,6 +661,10 @@ const BattlePokemonIconIndexes: {[id: string]: number} = {
 	ophadol: 1512 + 117,
 	blimplord: 1512 + 118,
 	lordfetchd: 1512 + 119,
+	chocopertmega: 1512 + 120,
+	dorderramega: 1512 + 121,
+	typhteslamega: 1512 + 122,
+	withordemega: 1512 + 123,
 };
 
 const BattlePokemonIconIndexesLeft: {[id: string]: number} = {
