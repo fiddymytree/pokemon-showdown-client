@@ -1,4 +1,5 @@
 node_modules/
+/play.pokemonshowdown.com/data/*
 /play.pokemonshowdown.com/js/*
 
 !/play.pokemonshowdown.com/js/client-battle.js
