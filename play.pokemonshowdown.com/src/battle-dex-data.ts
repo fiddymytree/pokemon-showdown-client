@@ -665,6 +665,17 @@ const BattlePokemonIconIndexes: {[id: string]: number} = {
 	dorderramega: 1512 + 121,
 	typhteslamega: 1512 + 122,
 	withordemega: 1512 + 123,
+	taurosmega: 1512 + 124,
+	tauroscombatmega: 1512 + 125,
+	taurosblazemega: 1512 + 126,
+	taurosaquamega: 1512 + 127,
+	boomkeldurr: 1512 + 128,
+	fugitile: 1512 + 129,
+	huesotops: 1512 + 130,
+	despharos: 1512 + 131,
+	despharosmega: 1512 + 132,
+	atlascross: 1512 + 133,
+	atlascrossmega: 1512 + 134,
 };
 
 const BattlePokemonIconIndexesLeft: {[id: string]: number} = {
