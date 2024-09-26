@@ -1508,6 +1508,15 @@ class BattleTooltips {
 			case 'Tauros-Paldea-Aqua':
 				moveType = 'Water';
 				break;
+			case 'Tauros-Paldea-Combat-Mega':
+				moveType = 'Fighting';
+				break;
+			case 'Tauros-Paldea-Blaze-Mega':
+				moveType = 'Fire';
+				break;
+			case 'Tauros-Paldea-Aqua-Mega':
+				moveType = 'Water';
+				break;
 			}
 		}
 		// Ivy Cudgel's type depends on the Ogerpon forme
