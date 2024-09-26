@@ -1097,8 +1097,8 @@ class BattleTooltips {
 		if (ability === 'purepower' || ability === 'hugepower') {
 			stats.atk *= 2;
 		}
-		if (ability === 'stampede') {
-			for (let i = 1; i <= 5 && i <= clientPokemon?.side.faintCounter; i++) {
+		if (ability === 'stampede' && clientPokemon?.side.faintCounter) {
+			for (let i = 1; i <= 5 && i <= clientPokemon.side.faintCounter; i++) {
 				if (clientPokemon?.volatiles[`fallen${i}`]) {
 					speedModifiers.push(1 + 0.1 * i)
 				}
