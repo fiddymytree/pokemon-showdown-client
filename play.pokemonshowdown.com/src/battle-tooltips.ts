@@ -1,4 +1,5 @@
 /**
+ * 
  * Pokemon Showdown Tooltips
  *
  * A file for generating tooltips for battles. This should be IE7+ and
@@ -1065,7 +1066,6 @@ class BattleTooltips {
 				stats.atk *= 2;
 			}
 		}
-
 		if (speciesName === 'Ditto' && !(clientPokemon && 'transform' in clientPokemon.volatiles)) {
 			if (item === 'quickpowder') {
 				speedModifiers.push(2);
@@ -1096,6 +1096,13 @@ class BattleTooltips {
 		}
 		if (ability === 'purepower' || ability === 'hugepower') {
 			stats.atk *= 2;
+		}
+		if (ability === 'stampede') {
+			for (let i = 1; i <= 5 && i <= clientPokemon?.side.faintCounter; i++) {
+				if (clientPokemon?.volatiles[`fallen${i}`]) {
+					speedModifiers.push(1 + 0.1 * i)
+				}
+			}
 		}
 		if (ability === 'hustle' || (ability === 'gorillatactics' && !clientPokemon?.volatiles['dynamax'])) {
 			stats.atk = Math.floor(stats.atk * 1.5);
