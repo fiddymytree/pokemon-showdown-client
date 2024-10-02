@@ -676,6 +676,9 @@ const BattlePokemonIconIndexes: {[id: string]: number} = {
 	despharosmega: 1512 + 132,
 	atlascross: 1512 + 133,
 	atlascrossmega: 1512 + 134,
+	ghoulizardmega: 1512 + 135,
+	pumpkasaurmega: 1512 + 136,
+	spectoisemega: 1512 + 137,
 };
 
 const BattlePokemonIconIndexesLeft: {[id: string]: number} = {
