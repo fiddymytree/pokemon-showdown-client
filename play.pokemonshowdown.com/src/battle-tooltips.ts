@@ -1236,6 +1236,9 @@ class BattleTooltips {
 		if (ability === 'furcoat') {
 			stats.def *= 2;
 		}
+		if (ability === 'armoredponcho') {
+			stats.def *= 2;
+		}
 		if (this.battle.abilityActive('Vessel of Ruin')) {
 			if (ability !== 'vesselofruin') {
 				stats.spa = Math.floor(stats.spa * 0.75);
