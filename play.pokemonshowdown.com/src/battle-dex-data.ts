@@ -679,6 +679,16 @@ const BattlePokemonIconIndexes: {[id: string]: number} = {
 	ghoulizardmega: 1512 + 135,
 	pumpkasaurmega: 1512 + 136,
 	spectoisemega: 1512 + 137,
+	acideon: 1512 + 138,
+	aereon: 1512 + 139,
+	automeon: 1512 + 140,
+	champeon: 1512 + 141,
+	dungeon: 1512 + 142,
+	eeveeon: 1512 + 143,
+	hiveon: 1512 + 144,
+	minereon: 1512 + 145,
+	spectreon: 1512 + 146,
+	wyveon: 1512 + 147,
 };
 
 const BattlePokemonIconIndexesLeft: {[id: string]: number} = {
