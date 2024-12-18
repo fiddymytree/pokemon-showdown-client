@@ -689,6 +689,15 @@ const BattlePokemonIconIndexes: {[id: string]: number} = {
 	minereon: 1512 + 145,
 	spectreon: 1512 + 146,
 	wyveon: 1512 + 147,
+	crystalixmega: 1512 + 148,
+	zapoleonmega: 1512 + 149,
+	frostikenmega: 1512 + 150,
+	thalassigon: 1512 + 151,
+	drownoir: 1512 + 152,
+	jelliclus: 1512 + 153,
+	geyserupt: 1512 + 154,
+	geyseruptmega: 1512 + 155,
+	malabyss: 1512 + 156,
 };
 
 const BattlePokemonIconIndexesLeft: {[id: string]: number} = {
