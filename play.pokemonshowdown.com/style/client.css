@@ -1038,8 +1038,19 @@ p.or:after {
  *********************************************************/
 
 .chat-log {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 40px;
+	font-size: 10pt;
 	background: rgba(242,247,250,.5)url("https://raw.githubusercontent.com/SanjiTheLord/cobblesouls-showdown-sprites/refs/heads/master/corner-light.png")top 70px right fixed no-repeat;
-	background-size: 200px 200px
+	background-size: 200px 200px;
+	overflow: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	word-wrap: break-word;
+	
 }
 .chat-log-add {
 	position: absolute;
