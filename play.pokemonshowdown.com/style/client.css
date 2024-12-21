@@ -1045,7 +1045,6 @@ p.or:after {
 	bottom: 40px;
 	font-size: 10pt;
 	background: rgba(242,247,250,.5)url("https://raw.githubusercontent.com/SanjiTheLord/cobblesouls-showdown-sprites/refs/heads/master/corner-light.png")top 70px right fixed no-repeat;
-	background-size: 200px 200px;
 	overflow: auto;
 	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
@@ -3045,7 +3044,6 @@ a.ilink.yours {
 
 .dark .chat-log {
 	background: rgba(0,0,0,0.5)url("https://raw.githubusercontent.com/SanjiTheLord/cobblesouls-showdown-sprites/refs/heads/master/corner-dark.png")top 70px right fixed no-repeat;
-	background-size: 200px 200px
 }
 
 .dark .userbar .username {
