@@ -1807,6 +1807,20 @@ export class PokemonSprite extends Sprite {
 		quarkdrivespa: ['Quark Drive: SpA', 'good'],
 		quarkdrivespd: ['Quark Drive: SpD', 'good'],
 		quarkdrivespe: ['Quark Drive: Spe', 'good'],
+
+		protomorphosisatk: ['Protomorphosis: Atk', 'good'],
+		protomorphosisdef: ['Protomorphosis: Def', 'good'],
+		protomorphosisspa: ['Protomorphosis: SpA', 'good'],
+		protomorphosisspd: ['Protomorphosis: SpD', 'good'],
+		protomorphosisspe: ['Protomorphosis: Spe', 'good'],
+
+		neurodriveatk: ['Neuro Drive: Atk', 'good'],
+		neurodrivedef: ['Neuro Drive: Def', 'good'],
+		neurodrivespa: ['Neuro Drive: SpA', 'good'],
+		neurodrivespd: ['Neuro Drive: SpD', 'good'],
+		neurodrivespe: ['Neuro Drive: Spe', 'good'],
+
+
 		fallen1: ['Fallen: 1', 'good'],
 		fallen2: ['Fallen: 2', 'good'],
 		fallen3: ['Fallen: 3', 'good'],

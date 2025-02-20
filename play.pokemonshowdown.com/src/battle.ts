@@ -445,6 +445,8 @@ export class Pokemon implements PokemonDetails, PokemonHealth {
 			for (const statName of Dex.statNamesExceptHP) {
 				volatilesToRemove.push('protosynthesis' + statName);
 				volatilesToRemove.push('quarkdrive' + statName);
+				volatilesToRemove.push('protomorphosis' + statName);
+				volatilesToRemove.push('neurodrive' + statName);
 			}
 			for (const volatile of volatilesToRemove) {
 				delete this.volatiles[volatile];
@@ -2782,6 +2784,20 @@ export class Battle {
 					poke.removeVolatile('quarkdrivespa' as ID);
 					poke.removeVolatile('quarkdrivespd' as ID);
 					poke.removeVolatile('quarkdrivespe' as ID);
+					break;
+				case 'neurodrive':
+					poke.removeVolatile('neurodriveatk' as ID);
+					poke.removeVolatile('neurodrivedef' as ID);
+					poke.removeVolatile('neurodrivespa' as ID);
+					poke.removeVolatile('neurodrivespd' as ID);
+					poke.removeVolatile('neurodrivespe' as ID);
+					break;
+				case 'protomorphosis':
+					poke.removeVolatile('protomorphosisatk' as ID);
+					poke.removeVolatile('protomorphosisdef' as ID);
+					poke.removeVolatile('protomorphosisspa' as ID);
+					poke.removeVolatile('protomorphosisspd' as ID);
+					poke.removeVolatile('protomorphosisspe' as ID);
 					break;
 				default:
 					if (effect.effectType === 'Move') {
