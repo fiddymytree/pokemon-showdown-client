@@ -1006,9 +1006,8 @@ class BattlePokemonSearch extends BattleTypedSearch<'pokemon'> {
 			}
 		} else if (format === 'ou') tierSet = tierSet.slice(slices.OU);
 		else if (format === 'uu' || (format === 'ru' && dex.gen === 3)) tierSet = tierSet.slice(slices.UU);
-		else if (format === 'bu') tierSet = tierSet.slice(slices.BU || slices.UU);
-		else if (format === 'ru') tierSet = tierSet.slice(slices.RU || slices.BU || slices.UU);
-		else if (format === 'nu') tierSet = tierSet.slice(slices.NU || slices.RU || slices.BU || slices.UU);
+		else if (format === 'ru') tierSet = tierSet.slice(slices.RU || slices.UU);
+		else if (format === 'nu') tierSet = tierSet.slice(slices.NU || slices.RU || slices.UU);
 		else if (format === 'pu') tierSet = tierSet.slice(slices.PU || slices.NU);
 		else if (format === 'zu') tierSet = tierSet.slice(slices.ZU || slices.PU || slices.NU);
 		else if (format === 'lc' || format === 'lcuu' || format.startsWith('lc') || (format !== 'caplc' && format.endsWith('lc'))) tierSet = tierSet.slice(slices.LC);
