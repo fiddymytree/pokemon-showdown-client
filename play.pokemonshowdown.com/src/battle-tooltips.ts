@@ -1189,6 +1189,11 @@ class BattleTooltips {
 		if (ability === 'grasspelt' && this.battle.hasPseudoWeather('Grassy Terrain')) {
 			stats.def = Math.floor(stats.def * 1.5);
 		}
+		if (this.battle.hasPseudoWeather('Psychic Terrain')) {
+			if (ability === 'neuroengine') {
+				stats.spa = Math.floor(stats.spa * 1.1111);
+			}
+		}
 		if (this.battle.hasPseudoWeather('Electric Terrain')) {
 			if (ability === 'surgesurfer') {
 				speedModifiers.push(2);
